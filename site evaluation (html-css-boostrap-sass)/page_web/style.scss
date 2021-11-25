@@ -1,0 +1,118 @@
+                    /* ---------------------importation police de caractère ---------------------- */
+                    /* ---------------------import font of character ---------------------- */
+                    
+                    @import url("./bootstrap-icons-1.3.0/bootstrap-icons.css");
+                    @font-face {
+                        font-family: "Merendia-Bold";
+                        src: url("./bootstrap-icons-1.3.0/fonts/Merienda-Bold.ttf");
+                    }
+                    
+                    @font-face {
+                        font-family: "Merendia-Regular";
+                        src: url("./bootstrap-icons-1.3.0/fonts/Merienda-Regular.ttf");
+                    }
+                    /* ---------------------importation police de caractère ---------------------- */
+                    /* ---------------------import font of character ---------------------- */
+                    /*--------------------------- VARIABLE ---------------------*/
+                    
+                    $merendia_skinny: "merendia-regular",
+                    cursif;
+                    $merendia_fat: "merendia-Bold",
+                    cursif;
+                    $color_blue_light: #c6e4f8;
+                    $color_icons_footer: rgb(202,
+                    202,
+                    202);
+                    %formate_body {
+                        background: $color_blue_light;
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: content-box;
+                        overflow-x: hidden;
+                        max-width: 100%;
+                    }
+                    
+                    %texte-style {
+                        font-size: 1em;
+                        text-align: center;
+                        font-family: $merendia_skinny;
+                    }
+                    
+                    %titre {
+                        font-size: 2em;
+                        padding-top: 2em;
+                        font-family: $merendia_fat;
+                    }
+                    
+                    %h2_mission {
+                        margin-top: 1em;
+                        font-size: 1.5em;
+                        font-family: $merendia_fat;
+                    }
+                    
+                    %margin_mision {
+                        margin: 1em 2.5em 0 2.5em;
+                        height: 100%;
+                        width: 13em;
+                    }
+                    
+                    %margin_mision_media_queries {
+                        margin: -4.5em 2.5em 0 2.5em;
+                        height: 100%;
+                        width: 13em;
+                    }
+                    
+                    %margin_icons_notre_equipe {
+                        width: 4em;
+                        margin: 0.2em 0 2em 0;
+                    }
+                    
+                    header {
+                        background: #0000ff;
+                    }
+                    
+                    .body_nos_missions {
+                        @extend %formate_body;
+                    }
+                    
+                    .logo {
+                        height: 9.4em;
+                        padding: 0;
+                        margin: 0;
+                    }
+                    
+                    .boxImage {
+                        position: relative;
+                        box-sizing: content-box;
+                        padding: 0;
+                        margin: 0;
+                    }
+                    /* Effet de transition de couleur dans le bouton donation.
+                       Je voulais faire un lien pour changer la couleur directement du CSS
+                       dans le vecteur que j'ai créé met ce n'est pas possible à partir du moment où c'est un bouton, 
+                       j'avais réussi à produire l'effet de transition avec les médias (embed) met il n'œuvrait plus sous forme de bouton
+                       d'onc j'ai superposé deux images sur le  bouton.  */
+                    
+                    .donation_blue {
+                        opacity: 1;
+                        border: transparent;
+                    }
+                    
+                    .donation_hover_salamandre {
+                        opacity: 0;
+                        border: transparent;
+                        transition: opacity 1s;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                    
+                    .donation {
+                        opacity: 0;
+                        border: transparent;
+                        transition: opacity 1s;
+                        animation: donation 1s 5;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
