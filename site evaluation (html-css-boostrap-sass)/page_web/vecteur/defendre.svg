@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: inkscape 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="124px" height="150px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 21.679 26"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <defs>
+     <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="16.75" y1="17.107" x2="32.708" y2="17.107">
+      <stop offset="0" stop-opacity="0.623529" stop-color="#989898"/>
+      <stop offset="1" stop-opacity="0" stop-color="#CCCCCC"/>
+     </linearGradient>
+     <mask id="id1">
+       <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="112.005" y1="31.316" x2="-12.124" y2="31.316">
+        <stop offset="0" stop-opacity="1" stop-color="white"/>
+        <stop offset="1" stop-opacity="0" stop-color="white"/>
+       </linearGradient>
+      <rect fill="url(#id2)" x="3.285" y="1.864" width="16.739" height="22.054"/>
+     </mask>
+     <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="112.005" y1="31.316" x2="-12.124" y2="31.316">
+      <stop offset="0" stop-opacity="1" stop-color="#122F14"/>
+      <stop offset="1" stop-opacity="1" stop-color="black"/>
+     </linearGradient>
+     <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="15.654" y1="16.836" x2="20.867" y2="16.836">
+      <stop offset="0" stop-opacity="0.247059" stop-color="#FEFBFE"/>
+      <stop offset="0.501961" stop-opacity="0.121569" stop-color="#D9F0E8"/>
+      <stop offset="1" stop-opacity="0" stop-color="#CCCCCC"/>
+     </linearGradient>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="defendre"/>
+  <g id="_2839960020864">
+   <path fill="#424242" stroke="black" stroke-width="0.328" stroke-miterlimit="22.9256" d="M0.247 2.66c-0.73,10.359 3.231,18.636 10.398,23.651 0.161,0.15 0.231,0.114 0.398,-0.015 7.154,-5.016 11.107,-13.287 10.377,-23.635 -8.124,-2.256 -13.778,-2.228 -21.173,0l0 -0.001z" filter="url(#j)"/>
+   <g>
+    <path fill="#FAFAFA" stroke="black" stroke-width="0.328" stroke-miterlimit="22.9256" d="M0.247 1.844c-0.73,10.359 3.231,18.636 10.398,23.651 0.161,0.15 0.231,0.114 0.398,-0.015 7.154,-5.016 11.107,-13.287 10.377,-23.635 -8.124,-2.256 -13.778,-2.227 -21.173,0l0 -0.001z"/>
+    <path fill="#FAFAFA" stroke="black" stroke-width="0.328" stroke-miterlimit="22.9256" d="M0.259 1.908c-0.73,10.359 3.231,18.636 10.398,23.651 0.161,0.149 0.231,0.113 0.399,-0.015 7.153,-5.016 11.106,-13.288 10.377,-23.635 -8.125,-2.256 -13.779,-2.228 -21.174,0l0 -0.001z"/>
+    <path fill="url(#id0)" stroke="black" stroke-width="0.328" stroke-miterlimit="22.9256" d="M0.259 1.908c-0.73,10.359 3.231,18.636 10.398,23.651 0.161,0.149 0.231,0.113 0.399,-0.015 7.153,-5.016 11.106,-13.288 10.377,-23.635 -8.125,-2.256 -13.779,-2.228 -21.174,0l0 -0.001z"/>
+    <path fill="green" stroke="black" stroke-width="0.286" stroke-miterlimit="22.9256" d="M20.054 3.182c0.637,9.039 -2.819,16.261 -9.073,20.637 -0.14,0.13 -0.201,0.099 -0.347,-0.013 -6.242,-4.377 -9.691,-11.594 -9.054,-20.623 6.784,-1.914 12.022,-1.943 18.474,0l0 -0.001z"/>
+    <path fill="url(#id3)" fill-rule="nonzero" mask="url(#id1)" d="M19.914 3.182c-3.635,-1.018 -7.775,-1.656 -12.777,-1.125 -3.126,0 -8.319,12.36 3.653,21.859 4.631,-3.418 10.068,-9.467 9.124,-20.734l0 0z"/>
+    <path fill="url(#id4)" d="M10.946 22.945c0.956,-4.97 1.502,-13.412 -0.11,-19.846 3.787,0.231 7.349,0.564 8.455,1.276 -0.35,8.435 -5.804,17.442 -8.345,18.569l0 0.001z"/>
+   </g>
+  </g>
+ </g>
+</svg>
