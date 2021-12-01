@@ -25,6 +25,36 @@
   max-width: 100%;
 }
 
+.acceuil {
+  font-size: 1em;
+  text-align: center;
+  font-family: "merendia-regular", cursif;
+}
+
+.titre_nos_missions {
+  font-size: 2em;
+  padding-top: 2em;
+  font-family: "merendia-Bold", cursif;
+}
+
+.margin_icons_mission h2, .margin_media_queries h2 {
+  margin-top: 1em;
+  font-size: 1.5em;
+  font-family: "merendia-Bold", cursif;
+}
+
+.margin_icons_mission {
+  margin: 1em 2.5em 0 2.5em;
+  height: 100%;
+  width: 13em;
+}
+
+.margin_media_queries {
+  margin: -4.5em 2.5em 0 2.5em;
+  height: 100%;
+  width: 13em;
+}
+
 header {
   background: #0000ff;
 }
@@ -75,5 +105,21 @@ header {
 
 .donation:hover {
   opacity: 1;
+}
+
+/*----------------- section nos missions -----------------*/
+.margin_media_queries div {
+  height: 150px;
+}
+
+/* j'ai désiré faire le média queries avec Bootstrap met je n'y suis pas parvenu, alors je l'ai fait en CSS */
+/* un média queries pour remonter le logo de l'œil du texte ÉDUQUER */
+@media screen and (min-width: 768px) {
+  .margin_media_queries {
+    margin: 2em 2.5em 0 2.5em;
+  }
+  .margin_icons_mission {
+    margin-top: 2em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
