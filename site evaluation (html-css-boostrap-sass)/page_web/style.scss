@@ -163,3 +163,74 @@
                         @extend %titre;
                         margin-bottom: 2em;
                     }
+                    /*--------------- section NOTRE ÉQUIPE -------------------*/
+                    
+                    #anchor_equipe {
+                        display: block;
+                        position: relative;
+                        bottom: 1.6em;
+                    }
+                    
+                    .notre_equipe {
+                        h1 {
+                            @extend %titre;
+                            padding: 1em 0 0.5em 0;
+                        }
+                        h4 {
+                            font-size: 1em;
+                            color: rgb(0, 0, 0);
+                            text-decoration: underline;
+                        }
+                        p {
+                            line-height: 1.3em;
+                            font-size: 0.95em;
+                        }
+                    }
+                    
+                    .card-size {
+                        width: 19em;
+                        .card-body-height {
+                            height: 19em;
+                        }
+                    }
+                    
+                    .style_card {
+                        box-shadow: 0px 0px 20px 1px #00000098;
+                        border-radius: 1em;
+                        img {
+                            border-radius: 1em 1em 0.3em 0.3em;
+                            box-shadow: 0px 10px 13px -3px rgba(0, 0, 0, 0.562);
+                        }
+                    }
+                    /*------------------- effet dynamique sur les boutons de la section notre équipe -----------------------*/
+                    
+                    .bouton_telephone {
+                        @extend %margin_icons_notre_equipe;
+                        border-radius: 2rem;
+                        box-shadow: 20px 38px 34px -10px rgba(0, 0, 0, 0.671);
+                        background: transparent;
+                        transition: box-shadow .5s ease;
+                        animation-direction: alternate;
+                        &:hover {
+                            box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.425);
+                        }
+                    }
+                    /*------------------- effet dynamique sur les boutons de la section notre équipe -----------------------*/
+                    
+                    .bouton_mail {
+                        @extend %margin_icons_notre_equipe;
+                        border-radius: 2rem;
+                        box-shadow: 20px 38px 34px -10px rgba(0, 0, 0, 0.671);
+                        background: transparent;
+                        transition: all .5s ease;
+                        &:hover {
+                            box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.425);
+                        }
+                    }
+                    
+                    .popover {
+                        width: 11em;
+                        height: auto;
+                        font-size: 1em;
+                        text-align: center;
+                    }
