@@ -15,7 +15,7 @@
 /* ---------------------importation police de caractère ---------------------- */
 /* ---------------------import font of character ---------------------- */
 /*--------------------------- VARIABLE ---------------------*/
-.body_nos_missions {
+.body_nos_missions, .bodySalamandre {
   background: #c6e4f8;
   padding: 0;
   margin: 0;
@@ -460,6 +460,299 @@ header {
     font-weight: 700;
     color: #cacaca;
     font-size: 5em;
+  }
+}
+
+/*--------------- section card salamandre ---------------*/
+/*--------------- animation de la salamandre ---------------*/
+.salamandreDécoration {
+  position: relative;
+  z-index: 1;
+  left: 0.5em;
+  bottom: 3em;
+  width: 7em;
+  -webkit-filter: drop-shadow(20px 30px 18px black);
+          filter: drop-shadow(20px 30px 18px black);
+}
+
+/* ----------------animation de la salamandre sur la card----------------- */
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 2;
+}
+
+.message_click_pop {
+  position: absolute;
+  z-index: 3;
+  right: 35%;
+  bottom: 105%;
+  opacity: 0;
+  background: #e9e9e9b6;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  font-family: "merendia-regular", cursif;
+  text-align: center;
+  width: 8em;
+  border: #5c5c5c solid 0.2em;
+  -webkit-animation: Test 8s;
+          animation: Test 8s;
+}
+
+@media screen and (min-width: 601px) {
+  .message_click_pop {
+    right: 55%;
+    bottom: 107%;
+  }
+}
+
+@-webkit-keyframes Test {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes Test {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animation {
+  -webkit-animation: 3s linear 1s infinite alternate glissement;
+          animation: 3s linear 1s infinite alternate glissement;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+
+@-webkit-keyframes glissement {
+  from {
+    margin-left: 0%;
+    -webkit-filter: drop-shadow(20px 30px 18px black);
+            filter: drop-shadow(20px 30px 18px black);
+  }
+  to {
+    margin-left: 70%;
+    -webkit-filter: drop-shadow(-20px 30px 18px black);
+            filter: drop-shadow(-20px 30px 18px black);
+  }
+}
+
+@keyframes glissement {
+  from {
+    margin-left: 0%;
+    -webkit-filter: drop-shadow(20px 30px 18px black);
+            filter: drop-shadow(20px 30px 18px black);
+  }
+  to {
+    margin-left: 70%;
+    -webkit-filter: drop-shadow(-20px 30px 18px black);
+            filter: drop-shadow(-20px 30px 18px black);
+  }
+}
+
+/* ----------------animation click de la salamandre sur la card----------------- */
+.animation:active {
+  -webkit-animation: 3s linear 1s infinite alternate glissementHover;
+          animation: 3s linear 1s infinite alternate glissementHover;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+
+@-webkit-keyframes glissementHover {
+  from {
+    margin-left: 0%;
+    -webkit-filter: drop-shadow(20px 30px 18px black);
+            filter: drop-shadow(20px 30px 18px black);
+  }
+  to {
+    margin-left: 70%;
+    -webkit-filter: drop-shadow(-20px 30px 18px black);
+            filter: drop-shadow(-20px 30px 18px black);
+  }
+}
+
+@keyframes glissementHover {
+  from {
+    margin-left: 0%;
+    -webkit-filter: drop-shadow(20px 30px 18px black);
+            filter: drop-shadow(20px 30px 18px black);
+  }
+  to {
+    margin-left: 70%;
+    -webkit-filter: drop-shadow(-20px 30px 18px black);
+            filter: drop-shadow(-20px 30px 18px black);
+  }
+}
+
+.cardDisposition {
+  margin-top: 5em;
+  background: #c6e4f8;
+  padding: 0;
+}
+
+.cardDisposition .salamandreCard {
+  position: relative;
+  bottom: 2em;
+  padding: 1.5em;
+  -webkit-filter: drop-shadow(-10px 10px 12px black);
+          filter: drop-shadow(-10px 10px 12px black);
+}
+
+.cardDisposition .feuilles-salamandre {
+  z-index: 0;
+  position: absolute;
+  -webkit-filter: drop-shadow(5px 5px 8px black);
+          filter: drop-shadow(5px 5px 8px black);
+  top: 2em;
+  width: 19.5em;
+  right: 0.3em;
+  height: auto;
+  -webkit-transform: scaleY(1.2);
+          transform: scaleY(1.2);
+}
+
+.cardBox {
+  background-size: 19.9em;
+  width: 19.9em;
+  margin: 0.8em;
+  background: #ebcaca;
+  -webkit-box-shadow: #242424 0px 0px 20px 0.1px;
+          box-shadow: #242424 0px 0px 20px 0.1px;
+  padding: 0;
+  height: auto;
+}
+
+.cardBox h5 {
+  font-family: "merendia-Bold", cursif;
+  color: #3d3d3d;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.cardBox p {
+  font-family: "merendia-Bold", cursif;
+  color: #41417c;
+  font-size: 1em;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.cardBox p:last-of-type {
+  color: brown;
+}
+
+.cardBox .card-background-text {
+  background: bisque;
+}
+
+/* ----------------un @media queries pour redimensionner la card salamandre----------------- */
+@media screen and (min-width: 601px) {
+  .cardDisposition {
+    margin-top: 5em;
+    background: #c6e4f8;
+    padding: 0;
+  }
+  .cardDisposition .salamandreCard {
+    position: relative;
+    bottom: 2em;
+    padding: 1.5em;
+    -webkit-filter: drop-shadow(-10px 10px 12px black);
+            filter: drop-shadow(-10px 10px 12px black);
+  }
+  .cardDisposition .feuilles-salamandre {
+    z-index: 0;
+    position: absolute;
+    -webkit-filter: drop-shadow(10px 10px 20px black);
+            filter: drop-shadow(10px 10px 20px black);
+    top: -10px;
+    right: 2px;
+    width: 30em;
+    height: auto;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  .cardBox {
+    background: #ebcaca;
+    background-size: 29.9em;
+    -webkit-box-shadow: #242424 0px 0px 20px 0.1px;
+            box-shadow: #242424 0px 0px 20px 0.1px;
+    padding: 0;
+    width: 29.9em;
+    height: auto;
+    margin: 0.8em;
   }
 }
 /*# sourceMappingURL=style.css.map */
