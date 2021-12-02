@@ -465,9 +465,14 @@ header {
 
 /*--------------- section card salamandre ---------------*/
 /*--------------- animation de la salamandre ---------------*/
+/*--------------- l'animation de la salamandre fonctionne bien sûr PC et smartphone mes pas iphone défaut
+      (un carré blanc apparaît pendant la transition) ça vient du Z-INDEX mal supporter sur l'iphone,
+      résolu en rajoutent (-webkit-transform: translate3d(0px, 0px, 0px);) ???.---------------*/
 .salamandreDécoration {
   position: relative;
   z-index: 1;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
   left: 0.5em;
   bottom: 3em;
   width: 7em;
@@ -480,11 +485,15 @@ header {
   position: -webkit-sticky;
   position: sticky;
   z-index: 2;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
 }
 
 .message_click_pop {
   position: absolute;
   z-index: 3;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
   right: 35%;
   bottom: 105%;
   opacity: 0;
@@ -673,6 +682,7 @@ header {
 
 .cardDisposition .feuilles-salamandre {
   z-index: 0;
+  -webkit-transform: translate3d(0px, 0px, 0px);
   position: absolute;
   -webkit-filter: drop-shadow(5px 5px 8px black);
           filter: drop-shadow(5px 5px 8px black);
@@ -734,6 +744,7 @@ header {
   }
   .cardDisposition .feuilles-salamandre {
     z-index: 0;
+    -webkit-transform: translate3d(0px, 0px, 0px);
     position: absolute;
     -webkit-filter: drop-shadow(10px 10px 20px black);
             filter: drop-shadow(10px 10px 20px black);

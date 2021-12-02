@@ -448,10 +448,14 @@
                         @extend %formate_body;
                     }
                     /*--------------- animation de la salamandre ---------------*/
+                    /*--------------- l'animation de la salamandre fonctionne bien sûr PC et smartphone mes pas iphone défaut
+      (un carré blanc apparaît pendant la transition) ça vient du Z-INDEX mal supporter sur l'iphone,
+      résolu en rajoutent (-webkit-transform: translate3d(0px, 0px, 0px);) ???.---------------*/
                     
                     .salamandreDécoration {
                         position: relative;
                         z-index: 1;
+                        transform: translate3d(0px, 0px, 0px);
                         left: 0.5em;
                         bottom: 3em;
                         width: 7em;
@@ -462,11 +466,13 @@
                     .sticky-top {
                         position: sticky;
                         z-index: 2;
+                        transform: translate3d(0px, 0px, 0px);
                     }
                     
                     .message_click_pop {
                         position: absolute;
                         z-index: 3;
+                        transform: translate3d(0px, 0px, 0px);
                         right: 35%;
                         bottom: 105%;
                         opacity: 0;
@@ -574,6 +580,7 @@
                         }
                         .feuilles-salamandre {
                             z-index: 0;
+                            -webkit-transform: translate3d(0px, 0px, 0px);
                             position: absolute;
                             filter: drop-shadow(5px 5px 8px rgb(0, 0, 0));
                             top: 2em;
@@ -626,6 +633,7 @@
                             }
                             .feuilles-salamandre {
                                 z-index: 0;
+                                -webkit-transform: translate3d(0px, 0px, 0px);
                                 position: absolute;
                                 filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
                                 top: -10px;
