@@ -755,4 +755,128 @@ header {
     margin: 0.8em;
   }
 }
+
+/*------------------------------ planing ---------------------------*/
+.calendrier {
+  background: #cecece;
+  width: 20em;
+  height: auto;
+  padding: 0;
+  margin: 0.8em;
+}
+
+.calendrier .texte-planing-head {
+  text-align: center;
+  font-family: "merendia-Bold", cursif;
+  font-size: 1em;
+  margin: 0.2em;
+}
+
+.texte-planing {
+  font-weight: 700;
+  font-family: "cursif";
+  font-size: 1.3em;
+  margin: 0.4em;
+  background: #ebebeb;
+  background-size: 1em;
+  -webkit-box-shadow: 1px 3px 5px 0.5px rgba(0, 0, 0, 0.75);
+          box-shadow: 1px 3px 5px 0.5px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+}
+
+.texte-planing time {
+  color: #001aff;
+}
+
+.texte-planing mark {
+  padding: 0;
+  background: none;
+  color: #fc0000;
+}
+
+.texte-planing .animateur {
+  text-decoration: underline;
+  color: #575757;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+}
+
+p.list-group-item {
+  color: #001aff;
+}
+
+p.list-group-item time {
+  color: #001aff;
+}
+
+/*---------------------------------- bouton inscription -----------------------------*/
+.btn_position_inscription {
+  margin: 0.6em 0 0.3em 11em;
+}
+
+.btn_position_inscription_unfolding {
+  margin: 0.6em 0 -0.8em 11em;
+}
+
+/*---------------------------------- un @media queries pour redimensionner le CALENDRIER -----------------------------*/
+@media screen and (min-width: 601px) {
+  .calendrier {
+    font-weight: 700;
+    background: #cecece;
+    width: 30em;
+    height: auto;
+    padding: 0;
+    margin: 0.8em;
+  }
+  .calendrier .texte-planing-head {
+    font-family: "merendia-Bold", cursif;
+    font-size: 1em;
+    margin: 0;
+  }
+  .texte-planing {
+    text-align: inherit;
+    font-family: "cursif";
+    font-size: 0.97em;
+    margin: 0.4em;
+    background: #ebebeb;
+    background-size: 1em;
+    -webkit-box-shadow: 1px 3px 5px 0.5px rgba(0, 0, 0, 0.75);
+            box-shadow: 1px 3px 5px 0.5px rgba(0, 0, 0, 0.75);
+    padding: 0.4em 0em 0.4em 0.4em;
+  }
+  .texte-planing time {
+    color: #6163df;
+  }
+  .texte-planing mark {
+    padding: 0.20em;
+    color: black;
+    background: rgba(121, 123, 255, 0.295);
+    border-radius: 0.5em;
+  }
+  .texte-planing .animateur {
+    text-decoration: underline;
+    color: #575757;
+    -webkit-text-decoration-color: red;
+            text-decoration-color: red;
+  }
+  p.list-group-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 25.3em;
+    color: black;
+  }
+  p.list-group-item time {
+    color: #6163df;
+  }
+  .btn_position_inscription {
+    margin: 0.6em 0 0.8em 21.6em;
+  }
+  .btn_position_inscription_unfolding {
+    margin: 0.6em 0 -0.25em 21.6em;
+  }
+}
 /*# sourceMappingURL=style.css.map */

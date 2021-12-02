@@ -645,3 +645,115 @@
                             margin: 0.8em;
                         }
                     }
+                    /*------------------------------ planing ---------------------------*/
+                    
+                    .calendrier {
+                        background: rgb(206, 206, 206);
+                        width: 20em;
+                        height: auto;
+                        padding: 0;
+                        margin: 0.8em;
+                        .texte-planing-head {
+                            text-align: center;
+                            font-family: $merendia_fat;
+                            font-size: 1em;
+                            margin: 0.2em;
+                        }
+                    }
+                    
+                    .texte-planing {
+                        font-weight: 700;
+                        font-family: "cursif";
+                        font-size: 1.3em;
+                        margin: 0.4em;
+                        background: rgb(235, 235, 235);
+                        background-size: 1em;
+                        box-shadow: 1px 3px 5px 0.5px rgba(0, 0, 0, 0.75);
+                        padding: 15px;
+                        time {
+                            color: rgb(0, 26, 255);
+                        }
+                        mark {
+                            padding: 0;
+                            background: none;
+                            color: rgb(252, 0, 0);
+                        }
+                        .animateur {
+                            text-decoration: underline;
+                            color: rgb(87, 87, 87);
+                            text-decoration-color: rgb(255, 0, 0);
+                        }
+                    }
+                    
+                    p.list-group-item {
+                        color: rgb(0, 26, 255);
+                        time {
+                            color: rgb(0, 26, 255);
+                        }
+                    }
+                    /*---------------------------------- bouton inscription -----------------------------*/
+                    
+                    .btn_position_inscription {
+                        margin: 0.6em 0 0.3em 11em;
+                    }
+                    
+                    .btn_position_inscription_unfolding {
+                        margin: 0.6em 0 -0.8em 11em;
+                    }
+                    /*---------------------------------- un @media queries pour redimensionner le CALENDRIER -----------------------------*/
+                    
+                    @media screen and (min-width: 601px) {
+                        .calendrier {
+                            font-weight: 700;
+                            background: rgb(206, 206, 206);
+                            width: 30em;
+                            height: auto;
+                            padding: 0;
+                            margin: 0.8em;
+                            .texte-planing-head {
+                                font-family: $merendia_fat;
+                                font-size: 1em;
+                                margin: 0;
+                            }
+                        }
+                        .texte-planing {
+                            text-align: inherit;
+                            font-family: "cursif";
+                            font-size: 0.97em;
+                            margin: 0.4em;
+                            background: rgb(235, 235, 235);
+                            background-size: 1em;
+                            box-shadow: 1px 3px 5px 0.5px rgba(0, 0, 0, 0.75);
+                            padding: 0.4em 0em 0.4em 0.4em;
+                            // padding: 0.7em;
+                            time {
+                                color: rgb(97, 99, 223);
+                            }
+                            mark {
+                                padding: 0.20em;
+                                color: rgb(0, 0, 0);
+                                background: rgba(121, 123, 255, 0.295);
+                                border-radius: 0.5em;
+                            }
+                            .animateur {
+                                text-decoration: underline;
+                                color: rgb(87, 87, 87);
+                                text-decoration-color: rgb(255, 0, 0);
+                            }
+                        }
+                        p.list-group-item {
+                            display: flex;
+                            justify-content: center;
+                            width: 25.3em;
+                            color: black;
+                            time {
+                                color: rgb(97, 99, 223);
+                            }
+                        }
+                        .btn_position_inscription {
+                            margin: 0.6em 0 0.8em 21.6em;
+                        }
+                        .btn_position_inscription_unfolding {
+                            margin: 0.6em 0 -0.25em 21.6em;
+                        }
+                    }
