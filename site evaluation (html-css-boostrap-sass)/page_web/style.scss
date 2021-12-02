@@ -346,6 +346,9 @@
                     .footer {
                         background: black;
                         padding-bottom: 1em;
+                        li {
+                            list-style: none;
+                        }
                     }
                     
                     .icons_footer {

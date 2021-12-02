@@ -337,6 +337,10 @@ header {
   padding-bottom: 1em;
 }
 
+.footer li {
+  list-style: none;
+}
+
 .icons_footer {
   vertical-align: -0.125em;
   color: #cacaca;
