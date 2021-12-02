@@ -31,7 +31,7 @@
   font-family: "merendia-regular", cursif;
 }
 
-.titre_nos_missions {
+.titre_nos_missions, .titre_qui_sommes_nous {
   font-size: 2em;
   padding-top: 2em;
   font-family: "merendia-Bold", cursif;
@@ -121,5 +121,14 @@ header {
   .margin_icons_mission {
     margin-top: 2em;
   }
+}
+
+/*------------------------ section QUI SOMMES NOUS -------------------------------*/
+.qui_sommes_nous {
+  background: #afd9f5;
+}
+
+.titre_qui_sommes_nous {
+  margin-bottom: 2em;
 }
 /*# sourceMappingURL=style.css.map */

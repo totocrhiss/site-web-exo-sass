@@ -153,3 +153,13 @@
                             margin-top: 2em;
                         }
                     }
+                    /*------------------------ section QUI SOMMES NOUS -------------------------------*/
+                    
+                    .qui_sommes_nous {
+                        background: darken($color_blue_light, 5%);
+                    }
+                    
+                    .titre_qui_sommes_nous {
+                        @extend %titre;
+                        margin-bottom: 2em;
+                    }
