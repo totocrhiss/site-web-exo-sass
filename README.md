@@ -50,5 +50,5 @@ réalisées avec Inkscape ainsi que la représentation graphique en vectoriel da
 
 #### Les images et vecteurs libres de droits.
 
-Les quatre logos dans la page d'accueil section nos missions son libre de droits ressource pixabay.com.  
-Les quatre images dans la page d'accueil section notre équipe son libre de droits ressource pixabay.com.
+Les quatre logos dans la page d'accueil section nos missions son libre de droits ressource [pixabay.com](https://pixabay.com/fr/).  
+Les quatre images dans la page d'accueil section notre équipe son libre de droits ressource [pixabay.com](https://pixabay.com/fr/).
