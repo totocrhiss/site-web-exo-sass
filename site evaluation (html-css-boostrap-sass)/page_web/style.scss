@@ -234,3 +234,45 @@
                         font-size: 1em;
                         text-align: center;
                     }
+                    /*------------------ FOOTER --------------------------------*/
+                    
+                    .footer {
+                        background: black;
+                        padding-bottom: 1em;
+                    }
+                    
+                    .icons_footer {
+                        vertical-align: -0.125em;
+                        color: $color_icons_footer;
+                        font-size: 2.4em;
+                        margin-right: 0.2em;
+                    }
+                    
+                    .logo_copyright {
+                        font-weight: 700;
+                        color: $color_icons_footer;
+                        font-size: 1.8em;
+                    }
+                    /* un média queries pour le footer*/
+                    
+                    @media screen and (min-width: 900px) {
+                        .footer {
+                            background: black;
+                            padding-bottom: 1em;
+                        }
+                        .logo_footer {
+                            width: 20em;
+                            margin-top: 1em;
+                        }
+                        .icons_footer {
+                            vertical-align: -0.125em;
+                            color: $color_icons_footer;
+                            font-size: 5em;
+                            margin-right: 0.5em;
+                        }
+                        .logo_copyright {
+                            font-weight: 700;
+                            color: $color_icons_footer;
+                            font-size: 5em;
+                        }
+                    }
