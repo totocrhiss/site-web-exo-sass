@@ -238,6 +238,47 @@
                             margin: 0 0 -2.5em 0;
                         }
                     }
+                    /*----------------- modification du texte  Navbar de Bootstrap avec les @médias queries -----------------*/
+                    
+                    .nav-link {
+                        @media screen and (min-width: 576px) {
+                            margin: 0.6em;
+                            text-align: center;
+                            transform: scale(1.2, 1.8);
+                            font-weight: 700;
+                            font-size: 51%;
+                        }
+                        @media screen and (min-width: 624px) {
+                            text-align: center;
+                            transform: scale(1.2, 1.7);
+                            font-weight: 700;
+                            font-size: 57.9%;
+                        }
+                        @media screen and (min-width: 715px) {
+                            font-size: 70%;
+                            transform: scale(1, 1.5);
+                        }
+                        @media screen and (min-width: 807px) {
+                            transform: none;
+                            font-size: 95%;
+                            margin: 0;
+                        }
+                    }
+                    /*----------------- correction positionnement du popper avec les @médias queries -----------------*/
+                    
+                    .dropdown-menu[data-bs-popper] {
+                        float: left;
+                        @media screen and (min-width: 576px) {
+                            top: 100%;
+                            left: -50%;
+                            margin-top: .125rem;
+                        }
+                        @media screen and (min-width: 887px) {
+                            top: 100%;
+                            left: 0;
+                            margin-top: .125rem;
+                        }
+                    }
                     /*----------------- section nos missions -----------------*/
                     
                     .acceuil {

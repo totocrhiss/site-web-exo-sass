@@ -249,6 +249,66 @@ header {
   }
 }
 
+/*----------------- modification du texte  Navbar de Bootstrap avec les @médias queries -----------------*/
+@media screen and (min-width: 576px) {
+  .nav-link {
+    margin: 0.6em;
+    text-align: center;
+    -webkit-transform: scale(1.2, 1.8);
+            transform: scale(1.2, 1.8);
+    font-weight: 700;
+    font-size: 51%;
+  }
+}
+
+@media screen and (min-width: 624px) {
+  .nav-link {
+    text-align: center;
+    -webkit-transform: scale(1.2, 1.7);
+            transform: scale(1.2, 1.7);
+    font-weight: 700;
+    font-size: 57.9%;
+  }
+}
+
+@media screen and (min-width: 715px) {
+  .nav-link {
+    font-size: 70%;
+    -webkit-transform: scale(1, 1.5);
+            transform: scale(1, 1.5);
+  }
+}
+
+@media screen and (min-width: 807px) {
+  .nav-link {
+    -webkit-transform: none;
+            transform: none;
+    font-size: 95%;
+    margin: 0;
+  }
+}
+
+/*----------------- correction positionnement du popper avec les @médias queries -----------------*/
+.dropdown-menu[data-bs-popper] {
+  float: left;
+}
+
+@media screen and (min-width: 576px) {
+  .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -50%;
+    margin-top: .125rem;
+  }
+}
+
+@media screen and (min-width: 887px) {
+  .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: .125rem;
+  }
+}
+
 /*----------------- section nos missions -----------------*/
 .margin_media_queries div {
   height: 150px;
