@@ -112,6 +112,32 @@ header {
   opacity: 1;
 }
 
+/*j'ajoute un clignotement dans le bouton donation de la NavBar
+                    pour que les téléphones portables sachent que c'est un bouton!
+                    (Vue que sur les téléphones le hover ne fonctionne pas)*/
+@-webkit-keyframes donation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes donation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /*--------------------formulaire de donation en modal avec Javascript--------------------*/
 .BoxDonLibre {
   width: 13em;
